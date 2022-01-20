@@ -30,8 +30,6 @@ function AddEditPage(props) {
 
   const handleSubmit = (value) => {
     return new Promise((resolve) => {
-      console.log("formsubmit", value);
-
       setTimeout(() => {
         if (isAddMode) {
           const newPhoto = {

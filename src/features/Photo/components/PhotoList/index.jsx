@@ -17,7 +17,6 @@ PhotoList.defaultProps = {
 
 function PhotoList(props) {
   const { photoList, onPhotoEditClick, onPhotoRemoveClick } = props;
-  console.log("test 2", { photoList });
   return (
     <Row>
       {photoList.map((photo) => (

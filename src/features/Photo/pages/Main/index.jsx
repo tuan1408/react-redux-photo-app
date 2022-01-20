@@ -16,7 +16,6 @@ function MainPage(props) {
   const dispatch = useDispatch();
 
   const handleEditClick = (photo) => {
-    console.log("edit", photo);
     const editPhotoUrl = `/photos/${photo.id}`;
     history(editPhotoUrl);
   };

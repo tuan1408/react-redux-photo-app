@@ -17,10 +17,8 @@ PhotoCard.defaultProps = {
 
 function PhotoCard(props) {
   const { photo, onEditClick, onRemoveClick } = props;
-  console.log("test 3", photo);
 
   const handleEditClick = () => {
-    console.log("test", photo);
     if (onEditClick) {
       onEditClick(photo);
     }

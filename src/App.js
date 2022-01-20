@@ -15,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Navigate replace to={"photos/"} />} />
             <Route path="photos/*" element={<Photo />} />
+            <Route path="react-redux-photo-app/*" element={<Photo />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
